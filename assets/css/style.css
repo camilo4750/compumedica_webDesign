@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding: 1rem; */
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.text-size-14 {
+  font-size: 14px;
+}
+
+.text-size-16 {
+  font-size: 16px;
+}
+
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-20 {
+  font-size: 20px;
+}
+
+.text-size-22 {
+  font-size: 22px;
+}
+
+.text-color-white {
+  color: #ffffff;
+}
+
+.text-color-orange {
+  color: #EE5600;
+}
+
+.bg-orange {
+  background: #EE5600;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
+}
+
+.text-typography-400 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.text-typography-italic-400 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.text-typography-600 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.text-typography-italic-600 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.text-typography-700 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+.text-typography-italic-700 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.mt-6 {
+  margin-top: 4.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 4.5rem !important;
+}
+
+.pt-6 {
+  padding-top: 4.5rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 4.5rem !important;
+}
+
+.p-6 {
+  padding: 4.5rem;
+}
+
+.home-section {
+  min-height: 100vh;
+  background-image: url(../img/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.home-section::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.home-section .row-text {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-section .home-content-center {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.home-section .home-content-center h1 {
+  font-size: 4em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.home-section .home-content-center h2 {
+  font-size: 2.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  transition: all 0.3s ease-out;
+}
+
+.nav-link:hover {
+  color: #EE5600 !important;
+}
+
+.navbar-toggler {
+  border: 1px solid #fff;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.section-biomedic {
+  min-height: 100vh;
+  /* background-image: url(../img/section_biomedica_compumedica.svg); */
+  background-color: #ffffff;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.description-biomedic {
+  width: 90%;
+  height: 300px;
+  -moz-border-radius: 107px 10px 168px 10px;
+  -webkit-border-radius: 107px 10px 168px 10px;
+  border-radius: 107px 10px 168px 10px;
+  background: #000000;
+  box-shadow: 0px 0px 15px 0px #EE5600;
+}
+
+.owl-carousel .owl-item .img-fond-equipment-sale {
+  background: linear-gradient(rgba(9, 32, 50, 0.625), rgba(9, 32, 50, 0.625)),
+    url('../img/p1.svg  ');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 150px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.owl-carousel .owl-item .img-fond-equipment-sale2 {
+  background: linear-gradient(rgba(9, 32, 50, 0.625), rgba(9, 32, 50, 0.625)),
+    url('../img/p2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 150px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.title-style {
+  position: relative;
+  display: inline-flex;
+}
+
+.title-style::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #EE5600;
+  box-shadow: 1px 1px 8px 1px #000000;
+}
+
+.title-start {
+  font-family: 'Lobster', cursive;
+  font-size: 10rem;
+  line-height: 100%;
+}
+
+.title-start .left-text {
+  margin-left: 120px;
+}
+
+.btn-services {
+  padding: 10px;
+  background-color: #EE5600;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: 0.3s all ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.btn-services:hover {
+  border: 2px solid #000000;
+  box-shadow: 1px 2px 10px #48529944;
+
+}
+
+.cuadro-1 {
+  height: 300px;
+  background-color: #EE5600;
+  transition: 0.3s all ease-out;
+
+}
+
+.cuadro-1:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  position: relative;
+  bottom: 15px;
+
+}
+
+.cuadro-2 {
+  height: 300px;
+  background-color: #000000;
+  transition: 0.3s all ease-out;
+}
+
+.cuadro-2:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  position: relative;
+  bottom: 15px;
+}
+
+.cuadro-3 {
+  height: 280px;
+  background-color: #9E9C9C;
+  transition: 0.3s all ease-out;
+}
+
+.cuadro-3:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  position: relative;
+  left: 15px;
+}
+
+.cuadro-4 {
+  height: 280px;
+  background-color: #000000;
+  transition: 0.3s all ease-out;
+}
+
+.cuadro-4:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  position: relative;
+  right: 15px;
+}
+
+.img-redes {
+  background: linear-gradient(rgba(9, 32, 50, 0.625), rgba(9, 32, 50, 0.625)),
+    url('../img/redes_compumedica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 250px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-mantenimiento {
+  background: linear-gradient(rgba(9, 32, 50, 0.625), rgba(9, 32, 50, 0.625)),
+    url('../img/mantenimiento_compumedica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 250px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.caja {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.caja:hover {
+  z-index: 1;
+  transform: scale(1.25);
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.5);
+}
+
+.caja .imagB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.caja .imagB:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(180deg, #fd7e14, #000000);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.caja:hover .imagB:before {
+  opacity: 1;
+}
+
+.caja .imagB img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caja .contenido {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+.caja .contenido .name {
+  color: #ffffff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+  transform: translateY(200px);
+}
+.caja:hover .contenido .name {
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+.caja .contenido .position {
+  color: #ffffff;
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.caja .contenido .editimg {
+  color: #ffffff;
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.caja:hover .contenido img {
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.caja .contenido .position {
+  color: #ffffff;
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.caja .contenido .editimg {
+  transform: translateY(200px);
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.caja:hover .contenido .position {
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.span-definition {
+  border-radius: 100px; 
+  padding: 4px 13px; 
+  font-size: 14px; 
+  color: #ffffff; 
+  background-color: #EE5600;
+}
+
+.ir-arriba {
+  display: none;
+  padding: 2px 6px;
+  font-size: 20px;
+  background: #EE5600;
+  color: #ffffff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 300px;
+}
+
+
+@media screen and (max-width: 1372px) {
+  .title-start {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 1372px) {
+  .title-start {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-start {
+    font-size: 4rem;
+  }
+
+  .title-start .left-text {
+    margin-left: 0;
+  }
+
+  .cuadro-3 {
+    height: 400px;
+  }
+
+  .cuadro-4 {
+    height: 360px;
+  }
+
+  .text-element {
+    height: 60px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .home-section .home-content-center h1 {
+    font-size: 3em;
+  }
+
+  .home-section .home-content-center h2 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+  
+}
