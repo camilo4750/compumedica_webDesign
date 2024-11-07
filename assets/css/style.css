@@ -35,10 +35,6 @@ h2 {
   font-size: 22px;
 }
 
-.text-size-24 {
-  font-size: 24px;
-}
-
 .line-height-1 {
   line-height: 1.3px !important;
 }
@@ -516,53 +512,3 @@ h2 {
   border-radius: 300px;
 }
 
-
-@media screen and (max-width: 1372px) {
-  .title-start {
-    font-size: 8rem;
-  }
-}
-
-@media screen and (max-width: 1372px) {
-  .title-start {
-    font-size: 6rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .title-start {
-    font-size: 4rem;
-  }
-
-  .title-start .left-text {
-    margin-left: 0;
-  }
-
-  .cuadro-3 {
-    height: 400px;
-  }
-
-  .cuadro-4 {
-    height: 360px;
-  }
-
-  .text-element {
-    height: 60px;
-  }
-
-}
-
-@media screen and (max-width: 767px) {
-  .home-section .home-content-center h1 {
-    font-size: 3em;
-  }
-
-  .home-section .home-content-center h2 {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 2.2rem;
-  }
-  
-}
