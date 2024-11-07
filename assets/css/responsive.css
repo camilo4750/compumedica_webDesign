@@ -1,25 +1,31 @@
-/* 
-@media screen and (max-width: 1372px) {
-    .title-start {
-      font-size: 8rem;
-    }
-  } */
-  
   @media screen and (max-width: 1300px) {
     .text-element {
       height: 50px;
     }
+
+    .logo-compumedica {
+        height: 160px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .logo-compumedica {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .text-element {
+        height: 30px;
+    }
+  }
+
+  @media screen and (max-width: 632px) {
+    .text-element {
+        height: 50px;
+      }
   }
   
   @media screen and (max-width: 500px) {
-    /* .title-start {
-      font-size: 4rem;
-    }
-  
-    .title-start .left-text {
-      margin-left: 0;
-    } */
-  
     .cuadro-3 {
       height: 400px;
     }
