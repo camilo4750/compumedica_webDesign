@@ -1,56 +1,84 @@
   @media screen and (max-width: 1300px) {
-    .text-element {
-      height: 50px;
-    }
+      .text-element {
+          height: 50px;
+      }
 
-    .logo-compumedica {
-        height: 160px;
-    }
+      .logo-compumedica {
+          height: 160px;
+      }
   }
 
   @media screen and (max-width: 991px) {
-    .logo-compumedica {
-        height: 100%;
-        padding: 10px;
-    }
+      .logo-compumedica {
+          height: 100%;
+          padding: 10px;
+      }
 
-    .text-element {
-        height: 30px;
-    }
-  }
-
-  @media screen and (max-width: 632px) {
-    .text-element {
-        height: 50px;
+      .text-element {
+          height: 30px;
       }
   }
-  
-  @media screen and (max-width: 500px) {
-    .cuadro-3 {
-      height: 400px;
-    }
-  
-    .cuadro-4 {
-      height: 360px;
-    }
-  
-    .text-element {
-      height: 60px;
-    }
-  
-  }
-  
+
+
   @media screen and (max-width: 767px) {
-    .home-section .home-content-center h1 {
-      font-size: 3em;
-    }
-  
-    .home-section .home-content-center h2 {
-      font-size: 2em;
-    }
-  
-    h2 {
-      font-size: 2.2rem;
-    }
-    
+      .home-section .home-content-center h1 {
+          font-size: 3em;
+      }
+
+      .home-section .home-content-center h2 {
+          font-size: 2em;
+      }
+
+      h2 {
+          font-size: 2.2rem;
+      }
+
+      .service-cards .cuadro-1 {
+          border-start-start-radius: 10px;
+          border-start-end-radius: 10px;
+      }
+
+      .service-cards .cuadro-2 {
+          border-start-end-radius: 0px !important;
+      }
+  }
+
+
+
+  @media screen and (max-width: 632px) {
+      .text-element {
+          height: 50px;
+      }
+  }
+
+  @media screen and (max-width: 575px) {
+      .btn-services {
+          width: 100%;
+      }
+
+      .cuadro-3 {
+          height: 400px;
+      }
+
+      .cuadro-4 {
+          height: 360px;
+      }
+
+      #biomedica .text-content {
+          width: 100%;
+      }
+
+      .service-cards .cuadro-1 {
+          border-start-start-radius: 0px;
+          border-start-end-radius: 0px;
+      }
+
+      .service-cards .cuadro-4 {
+          border-bottom-right-radius: 0px;
+          border-bottom-left-radius: 0px;
+      }
+
+      .text-element {
+          height: 60px;
+      }
   }
