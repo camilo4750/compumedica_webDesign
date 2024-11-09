@@ -536,3 +536,28 @@ h2 {
   right: 10px;
   border-radius: 300px;
 }
+
+.owl-carousel .owl-nav button.owl-prev {
+  padding-inline: 20px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 30px; 
+  font-weight: 600;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent;
+  color: #fd7e14
+}
+
+
+.owl-carousel .owl-nav button.owl-next {
+  padding-inline: 20px !important;
+}
+
+
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 30px; 
+  font-weight: 600;
+}

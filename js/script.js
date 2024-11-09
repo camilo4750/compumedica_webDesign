@@ -40,11 +40,12 @@ const typed = new Typed('#element', {
 });
 
 $('.owl-carousel').owlCarousel({
-  loop: true,
   dots: false,
-  margin: 10,
+  loop: true,
+  rewind: true,
   autoplay: true,
   autoplayTimeout: 3000,
+  margin: 15,
   autoplayHoverPause: true,
   responsiveClass: true,
   responsive: {

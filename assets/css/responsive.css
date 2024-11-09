@@ -19,7 +19,6 @@
       }
   }
 
-
   @media screen and (max-width: 767px) {
       .home-section .home-content-center h1 {
           font-size: 3em;
@@ -42,8 +41,6 @@
           border-start-end-radius: 0px !important;
       }
   }
-
-
 
   @media screen and (max-width: 632px) {
       .text-element {
