@@ -409,7 +409,7 @@ h2 {
   height: 270px;
   overflow: hidden;
   transition: 0.5s;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .caja:hover {
@@ -551,13 +551,37 @@ h2 {
   color: #fd7e14
 }
 
-
 .owl-carousel .owl-nav button.owl-next {
   padding-inline: 20px !important;
 }
 
-
 .owl-carousel .owl-nav button.owl-next {
   font-size: 30px; 
   font-weight: 600;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); 
+  border-radius: 5px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #25D366; 
+  border-radius: 5px;
+  font-size: 25px; 
+  color: #ffffff;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
